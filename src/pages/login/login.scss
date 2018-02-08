@@ -1,0 +1,22 @@
+page-login {
+
+  .login{width:100%;height:100%;background:#2F3C51;background-size:cover;z-index:-10;position: fixed }
+  .welcome{width:100%;margin-top:25%;}
+  .welcome img{width:100%;}
+  //.company-logo{width:200px;margin: 0 auto; }
+  .system-name{height: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 28px;}
+  .login-inp{margin:0 30px 15px 30px;border-bottom:1px solid #fff;}
+  //.login-inp label{width:4em;text-align:center;display:inline-block;color:#fff;}
+  .login-inp input{ margin-left: 18px; width: 80%;line-height:48px;color:#fff;background-color:transparent;border:none;outline: none;}
+  .login-inp input::placeholder{color: #ffffff;font-size: 16px;font-weight: 500;}
+  .account-icon{float: left;width: 40px;height: 40px;}
+  .login-txt{text-align:center;color:#fff;}
+  .login-txt a{color:#fff;padding:0 5px;}
+  .login-btn {margin:0 30px 15px 30px;}
+  .login-btn a{display:block;width:100%;text-align:center;line-height:40px;color:#fff;font-size:16px;letter-spacing:5px; border-radius:5px;background:linear-gradient(to right, #3ABDB4, #17B7C8);}
+  a, a.link{color:#666;text-decoration:none;font-weight:500;}
+  a, a.link:hover{color:#666;}
+}
