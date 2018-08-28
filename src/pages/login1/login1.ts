@@ -28,8 +28,7 @@ export class Login1Page {
     this.loading=true;
     let accountInfo=this.form.value;
     var headers=new Headers({ 'Content-Type': 'application/json' });
-    // this.http.post("http://bpmdev.haid.com.cn:8010/Portal/WebServices/EffortService.asmx/GetAppUserInfo",JSON.stringify({Account:"016314",Password:"888888"}),{headers:headers}).subscribe((res)=>{
-    //   console.dir(res);
+   //   console.dir(res);
     //   console.dir(JSON.parse(JSON.parse(res["_body"]).d));
     // });
     this.http.get("/assets/data/userData.json",{headers:headers}).subscribe((res)=>{
